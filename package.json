@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha --ui bdd --reporter spec  ./test --recursive",
     "start": "DEBUG=app:* node index.js",
-    "postinstall": "echo ===== && ls ./node_modules/grunt-cli/ && echo ====== && ls node_modules/grunt-cli/bin && echo =========="
+    "postinstall": "./node_modules/grunt-cli/bin/grunt"
   },
   "repository": {
     "type": "git",
